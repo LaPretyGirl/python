@@ -13,12 +13,11 @@ print("La longitut ", a, " és ", b)
 
 
 
-# (...
-a=[1,2,3,[4,5,7],8,9]
-b= "Pere"
-c=len(a)=>6
-d=len(b)=>4
-x=longitut(a)=>6
-y=longitut(b)=>y
-...) 
+# Apuntes :)
+# a=[1,2,3,[4,5,7],8,9]
+# b= "Pere"
+# c=len(a)=>6
+# d=len(b)=>4
+# x=longitut(a)=>6
+# y=longitut(b)=>y
 
