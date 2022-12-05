@@ -1,32 +1,12 @@
-# Definición de funciones 
-def gran_de_tres(x,y,z):
-    a=x
-    if(x>y):
-        if(x>z):
-            a = x
-        elif (z>x):
-            a = z
-        else:
-            a = x
-    elif (y>x):
-        if (y>z):
-            a = y
-        elif (z>y):
-            a = z
-        else:
-            a = y
-    else:
-        if (x>z):
-            a = x
-        elif (z>x):
-            a = z
-        else: 
-            a = x
-    return a 
+# Donat un caracter que ens retorni true si és una vocal i fals si no ho és.
+def vocal(a):
 
-# Aplicación principal
-a = int(input("Escriure el primer valor: "))
-b = int(input("Escriure el segon valor: "))
-c = int(input("Escriure el tercer valor: "))
-d = gran_de_tres(a,b,c)
-print("El mayor de ", a, ", ",b, ", ",c," es ", d)
+    if (a=='a' or a=='A' or a=='e' or a=='E' or a=='i' or a=='I' or a=='o' or a=='O' or a=='u' or a=='U' ):
+        return True
+    else:
+        return False
+
+# Programa principal
+
+a= input("Escriu un caràcter: ")
+print("La funció ens indica que és vocal:", vocal(a))
