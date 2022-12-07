@@ -1,7 +1,7 @@
 def invertir(a):
     b= list(a)
     c=b[::-1]
-    r=str(c)
+    r="".join(c)
     return r
 
 a=input("Insereix text: ")
